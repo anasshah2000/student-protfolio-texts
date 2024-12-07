@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="pro.css" rel="stylesheet">
@@ -16,20 +24,29 @@
 
 <div class="main">
 
-    <header class="flex justify-around aling-items-center h-24 bg-black aling-items-center">
-        <div class="text-2xl mt-7">
+    <header class="flex justify-around aling-items-center h-24 bg-black aling-items-center w-full">
 
-            Anas shah Portfolio
+        <div class="mt-5">
+            <p class=" sm:text-md md:text-md lg:text-xl">
 
+                Anas shah Portfolio
+            </p>
         </div>
+
         <div>
             <ul class="flex justify-center ">
-                <li class="list-style-none mx-6  mt-7 hover:text-gray-400"> <a href="#hello"> <i class="bi bi-house-door-fill"> Home</i> </a></li>
-                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#about"> <i class="bi bi-person-fill"></i>About </a></li>
-                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href=""> <i class="bi bi-file"></i>skills </a></li>
-                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#Resume"> <i class="bi bi-file"></i>Resume </a></li>
-                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href=""> <i class="bi bi-envelope-open-fill"></i> Projects </a></li>
-                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#last"> <i  class="bi bi-credit-card-2-front-fill"></i>Contact Me </a></li>
+                <li class="list-style-none mx-6  mt-7 hover:text-gray-400"> <a href="#hello"> <i
+                            class="bi bi-house-door-fill"> Home</i> </a></li>
+                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#about"> <i
+                            class="bi bi-person-fill"></i>About </a></li>
+                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href=""> <i class="bi bi-file"></i>skills
+                    </a></li>
+                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#Resume"> <i
+                            class="bi bi-file"></i>Resume </a></li>
+                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href=""> <i
+                            class="bi bi-envelope-open-fill"></i> Projects </a></li>
+                <li class="list-style-none mx-6 mt-7 hover:text-gray-400"> <a href="#last"> <i
+                            class="bi bi-credit-card-2-front-fill"></i>Contact Me </a></li>
             </ul>
         </div>
     </header>
@@ -179,52 +196,75 @@
     <!-- contact for start -->
 
 
-    <div id="last" class="mt-8">
-
+    <div id="last" class="mt-8 flex my-6 p-8 h-screen ">
         <h1 class="text-3xl text-green-600 ml-24 font-bold"> contect us</h1>
-        <div class="flex ml-44">
-            <div id="contain.box" class="grid grid-cols-2 shadow shadow-2xl w-96 bg-white mt-14 h-full" >
 
-                <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-geo-alt-fill" ></i>Loction  </a> <p class="text-lg text-black"> Sihada, Khandwa</p></h1> 
-                                            
-                <br>
-                <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-envelope-at"></i>Email  </a> <p class="text-lg text-black"> Shahanas4069@gmail.com</p></h1> 
-                                            
-                <br>
-                <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-file"></i>Call  </a> <p class="text-lg text-black mb-24 "> +91 92*****677 </p></h1> 
-                                            
-                 <!-- secoundbox  -->
-            
-            </div>
-            <div id="contain.box  secoundbox" class="grid grid-2 shadow shadow-2xl bg-white mt-14  mx-24 w-96 ">
 
-                <div class="flex">
+        <div id="contain.box" class="grid grid-cols-2 shadow shadow-2xl w-96 bg-white mt-14 h-full  ">
 
-                    <h1 class="mt-14">
-                        <p class="ml-9 text-black">  
-                            You name
-                        </p>
-                        <input type="text" class="border border-black  hover:border-blue-300 border-blue-500 ">
-                    </h1>
-                    <h1 class="mt-14 mx-4">
-                        
-                        <p class="text-black"> You Email</p>
-                        <input type="text" class="border border-black hover:border-blue-300 border-blue-500 ">
-                        
-                    </h1>
-                </div>
-                 <k class="ml-7 text-blue-300"> Message </k>
-                <h1 ><input type="text" class="w-72 h-32 border border-blue-500 hover:border-blue-300 mx-14"></h1>
+            <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-geo-alt-fill"></i>Loction </a>
+                <p class="text-lg text-black"> Sihada, Khandwa</p>
+            </h1>
 
-                <button class="w-32 h-8 mb-14 shadow shadow-2xl bg-blue-300 mt-8 ml-32 rounded rounded-xl text-white hover:bg-blue-500"> Send Message </button>
+            <br>
+            <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-envelope-at"></i>Email </a>
+                <p class="text-lg text-black"> Shahanas4069@gmail.com</p>
+            </h1>
 
-            </div>
+            <br>
+            <h1 class="ml-14 text-2xl mt-9 text-blue-500"><a href=""> <i class="bi bi-file"></i>Call </a>
+                <p class="text-lg text-black mb-24 "> +91 92*****677 </p>
+            </h1>
 
-            
-            
+            <!-- secoundbox  -->
+
         </div>
 
+
+
+
+
+        <div id="contain.box  secoundbox" class=" shadow shadow-2xl bg-white mt-14  mx-24 ">
+
+
+
+            
+                
+                <div class="text-center mt-10 ">
+
+                    <label for="name" class="text-black">Your Name:</label>
+                    <input type="text" id="name"  class="border border-black  hover:border-blue-300 border-blue-500 ">
+                </div>
+            
+
+
+            <h1 class="mt-14 mx-4">
+
+                <p class="text-black"> You Email</p>
+                <input type="text" class="border border-black hover:border-blue-300 border-blue-500 ">
+
+            </h1>
+
+            <k class="ml-7 text-blue-300"> Message </k>
+            <h1><input type="text" class="w-72 h-32 border border-blue-500 hover:border-blue-300 mx-14"></h1>
+
+            <button
+                class="w-32 h-8 mb-14 shadow shadow-2xl bg-blue-300 mt-8 ml-32 rounded rounded-xl text-white hover:bg-blue-500">
+                Send Message </button>
+
+        </div>
+
+
+
+
+
     </div>
+
+
+    <div class="bg-blue-300 h-10 ">
+       <h4 class="text-black text-center text-3xl">This is footer</h4>
+    </div>
+
 
     
 
