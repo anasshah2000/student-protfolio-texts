@@ -1,5 +1,7 @@
 .main { background-color: rgb(17, 15, 15);
-      color: aliceblue;}
+      color: aliceblue;
+       height: max-content;
+     width: max-content;}
 #main { background-color: rgb(17, 15, 15);
       color: aliceblue;}
      
