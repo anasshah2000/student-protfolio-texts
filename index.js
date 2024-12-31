@@ -13,10 +13,10 @@ setTimeout(function() {
 const light = document.getElementById('light');
 
 
-setTimeout(function light() {
+function light() {
     
     light.style.backgroundColor = 'pink ';
-}, ) 
+}
 
 
         
